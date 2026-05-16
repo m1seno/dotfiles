@@ -27,3 +27,8 @@ then use GNU stow to create symlinks.
 ```
 stow .
 ```
+
+## Sources
+If you want to create your own dotfile repo, simply follow the instructions in Dreams of Autonomy's video!
+
+https://www.youtube.com/watch?v=y6XCebnB9gs
