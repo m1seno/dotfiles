@@ -22,6 +22,10 @@ First, clone the repo into your $HOME directory using git
 git clone git@github.com:m1seno/dotfiles.git
 cd dotfiles
 ```
+Before creating symlinks, make sure you remove, or better yet, rename the dotfiles in your home directory
+```
+mv ~/.zshrc ~/.zshrc.backup
+```
 
 then use GNU stow to create symlinks.
 ```
