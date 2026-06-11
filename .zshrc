@@ -69,9 +69,14 @@ zstyle ':completion:*' menu no
 zstyle ':fzf-tab:complete:cd:*' fzf-preview 'ls --color $realpath'
 
 # Aliases
-alias ls='ls --color'
+alias ll='eza -l --icons'
+alias la='eza -la --icons'
 alias c='clear'
 alias ..='cd ..'
+alias ff='fastfetch'
+alias cat='bat'
+alias upgrade='sudo dnf upgrade'
 
-# Shell integrations
+# Shell integrations# Shell integrations
+
 eval "$(fzf --zsh)"
