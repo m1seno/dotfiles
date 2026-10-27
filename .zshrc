@@ -80,3 +80,10 @@ alias upgrade='sudo dnf upgrade'
 # Shell integrations# Shell integrations
 
 eval "$(fzf --zsh)"
+
+# Created by `pipx` on 2026-10-23 19:50:55
+export PATH="$PATH:/home/miseno/.local/bin"
+
+# Editor
+export EDITOR=micro
+export VISUAL=micro
