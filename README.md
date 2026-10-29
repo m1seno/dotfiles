@@ -4,10 +4,16 @@ This directory contains the dotfiles for my system.
 With this setup, it's easy to get the configurations I want for any new computer or virtual machine.
 
 ## Requirements
-Ensure you have Git and Stow installed on your system.
+Ensure you have the following installed on your system.
 
+### Git
 ```
-sudo dnf install git stow
+sudo dnf install git
+```
+
+### Stow
+```
+sudo dnf install stow
 ```
 
 ## Installation
